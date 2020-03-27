@@ -18,7 +18,7 @@
 $(document).ready(function () {
 	"use strict";
 
-	/* 
+	/*
 
 	1. Vars and Inits
 
@@ -43,7 +43,7 @@ $(document).ready(function () {
 		setHeader();
 	});
 
-	/* 
+	/*
 
 	2. Set Header
 
@@ -57,7 +57,7 @@ $(document).ready(function () {
 		}
 	}
 
-	/* 
+	/*
 
 	3. Init Menu
 
@@ -79,7 +79,7 @@ $(document).ready(function () {
 		}
 	}
 
-	/* 
+	/*
 
 	4. Init Home Slider
 
@@ -106,7 +106,7 @@ $(document).ready(function () {
 		}
 	}
 
-	/* 
+	/*
 
 	5. Init Featured Album Player
 
@@ -126,6 +126,12 @@ $(document).ready(function () {
 					artist: "The Brothers",
 					mp3: "files/jollyjolly.mp3",
 					duration: "5.01"
+				},
+				{
+					title: "Jolly Jolly",
+					artist: "The Brothers",
+					mp3: "files/followfollow.mp3",
+					duration: "5.56"
 				},
 			];
 
@@ -194,7 +200,7 @@ $(document).ready(function () {
 		}
 	}
 
-	/* 
+	/*
 
 	6. Init Magic
 
@@ -218,7 +224,7 @@ $(document).ready(function () {
 		}
 	}
 
-	/* 
+	/*
 
 	7. Init Single Player
 

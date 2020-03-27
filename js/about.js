@@ -17,7 +17,7 @@ $(document).ready(function()
 {
 	"use strict";
 
-	/* 
+	/*
 
 	1. Vars and Inits
 
@@ -42,7 +42,7 @@ $(document).ready(function()
 		setHeader();
 	});
 
-	/* 
+	/*
 
 	2. Set Header
 
@@ -60,7 +60,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	3. Init Menu
 
@@ -86,7 +86,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	4. Init Single Player
 
@@ -99,9 +99,9 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Better Days",
-							artist:"Bensound",
-							mp3:"files/bensound-betterdays.mp3"
+						title: "The Brothers - Undefeated",
+						artist: "The Brothers",
+						mp3: "files/the-brothers_undefeated-the-brothers.mp3",
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
@@ -124,10 +124,10 @@ $(document).ready(function()
 				errorAlerts: false,
 				warningAlerts: false
 			});
-		}	
+		}
 	}
 
-	/* 
+	/*
 
 	5. Init Milestones
 
@@ -171,8 +171,8 @@ $(document).ready(function()
 		    		var counterTween = TweenMax.to(counter, 4,
 		    		{
 		    			value: endValue,
-		    			roundProps:"value", 
-						ease: Circ.easeOut, 
+		    			roundProps:"value",
+						ease: Circ.easeOut,
 						onUpdate:function()
 						{
 							document.getElementsByClassName('milestone_counter')[i].innerHTML = signBefore + counter.value + signAfter;
